@@ -34,6 +34,7 @@ pip install torch torchvision opencv-python numpy
 Pastikan juga cv_bridge sudah terinstall via ROS 2:
 
 sudo apt install ros-${ROS_DISTRO}-cv-bridge
+```
 Model Setup
 
     Download YOLOv11 model .pt (hasil training custom atau pre-trained)
@@ -63,13 +64,13 @@ ros2_ws/
         └── setup.py
 
 Build workspace:
-
+```
 cd ~/ros2_ws
 colcon build
 source install/setup.bash
 
 🚀 Running the Node
-
+```
 Jalankan node deteksi:
 
 ros2 run yolo11_ros2_py main
