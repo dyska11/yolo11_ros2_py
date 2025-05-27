@@ -54,7 +54,7 @@ Sesuaikan path model di script Python Mas (misalnya di main.py):
 Karena ini node Python, tidak perlu di-compile. Cukup letakkan dalam struktur package ROS 2.
 
 Contoh struktur:
-
+```
 ros2_ws/
 └── src/
     └── yolo11_ros2_py/
@@ -70,7 +70,7 @@ colcon build
 source install/setup.bash
 
 🚀 Running the Node
-```
+
 Jalankan node deteksi:
 
 ros2 run yolo11_ros2_py main
