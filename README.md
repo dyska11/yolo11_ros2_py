@@ -36,9 +36,6 @@ Pastikan juga cv_bridge sudah terinstall via ROS 2:
 sudo apt install ros-${ROS_DISTRO}-cv-bridge
 ```
 Model Setup
-
-    Download YOLOv11 model .pt (hasil training custom atau pre-trained)
-    Contoh:
 ```
 yolov11/
 └── best.pt
