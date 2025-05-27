@@ -29,7 +29,7 @@ Pastikan sistem Anda sudah memiliki hal berikut:
   - `rclpy` (ROS 2 Python client library)
 
 Install semua dependency Python dengan:
-```bash
+```
 pip install torch torchvision opencv-python numpy
 Pastikan juga cv_bridge sudah terinstall via ROS 2:
 
@@ -73,4 +73,4 @@ source install/setup.bash
 ```
 Jalankan node deteksi:
 
-ros2 run yolo11_ros2_py main
+ros2 launch kapal robot_launch.py
