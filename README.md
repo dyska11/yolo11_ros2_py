@@ -39,10 +39,10 @@ Model Setup
 
     Download YOLOv11 model .pt (hasil training custom atau pre-trained)
     Contoh:
-
+```
 yolov11/
 └── best.pt
-
+```
 Sesuaikan path model di script Python Mas (misalnya di main.py):
 
     model = torch.hub.load('path/to/yolov11', 'custom', path='yolov11/best.pt')
@@ -62,15 +62,15 @@ ros2_ws/
         │   └── main.py
         ├── package.xml
         └── setup.py
-
+```bash
 Build workspace:
-```
+
 cd ~/ros2_ws
 colcon build
 source install/setup.bash
 
 🚀 Running the Node
-
+```
 Jalankan node deteksi:
 
 ros2 run yolo11_ros2_py main
